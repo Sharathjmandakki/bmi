@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "574398540744",
+    "project_id": "bmi-cali",
+    "storage_bucket": "bmi-cali.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574398540744:android:d0eba6f70413a2fabd6efd",
+        "android_client_info": {
+          "package_name": "com.example.bmi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574398540744-s21prp1hb6gq9i3c1ceoad082hfn13ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBniEnPmTocYXgc2Bx4g21mBC9xddNzoTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574398540744-s21prp1hb6gq9i3c1ceoad082hfn13ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

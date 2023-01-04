@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'bmi_brain.dart';
-import 'bodyofapp.dart';
+// import 'bmi_brain.dart';
+// import 'bodyofapp.dart';
 
 class results extends StatelessWidget {
+  var getAdvice;
+  var getResult;
+  var Calalculate_bmi;
   results(
       {required this.getResult,
       required this.Calalculate_bmi,
       required this.getAdvice});
-  final String getAdvice;
-  final String getResult;
-  final String Calalculate_bmi;
 
   @override
   Widget build(BuildContext context) {
@@ -35,36 +35,33 @@ class results extends StatelessWidget {
               ),
             ),
             Expanded(
-              flex: 5,
               child: Card(
                 color: Color(0xFF1D1E33),
                 margin: EdgeInsets.all(10),
-                child: Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      Text(
-                        getResult.toUpperCase(),
-                        style: TextStyle(
-                          fontSize: 25,
-                          color: Colors.green,
-                        ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Text(
+                      getResult.toUpperCase(),
+                      style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.green,
                       ),
-                      Text(
-                        Calalculate_bmi,
-                        style: TextStyle(
-                          fontSize: 100,
-                          fontWeight: FontWeight.bold,
-                        ),
+                    ),
+                    Text(
+                      Calalculate_bmi,
+                      style: TextStyle(
+                        fontSize: 100,
+                        fontWeight: FontWeight.bold,
                       ),
-                      Text(
-                        getAdvice,
-                        style: TextStyle(fontSize: 25),
-                        textAlign: TextAlign.center,
-                      )
-                    ],
-                  ),
+                    ),
+                    Text(
+                      getAdvice,
+                      style: TextStyle(fontSize: 25),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
                 ),
               ),
             ),
